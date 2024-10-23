@@ -44,8 +44,8 @@ interface AddFn {
   (a: number, b: number): number;
 }
 
-let add: AddFn;
+let adds: AddFn;
 
-add = (n1: number, n2: number) => {
+adds = (n1: number, n2: number) => {
   return n1 + n2;
 };
